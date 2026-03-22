@@ -7,10 +7,14 @@ import ClientsSection from "@/components/ClientsSection";
 import CaseStudiesSection from "@/components/CaseStudiesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/CustomCursor";
+import ScrollProgress from "@/components/ScrollProgress";
 
 const Index = () => {
   return (
     <div className="bg-background min-h-screen overflow-x-hidden">
+      <CustomCursor />
+      <ScrollProgress />
       <Navbar />
       <HeroSection />
       <AboutSection />
